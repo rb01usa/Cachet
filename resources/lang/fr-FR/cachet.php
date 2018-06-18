@@ -53,7 +53,7 @@ return [
 
     // Service Status
     'service' => [
-        'good'  => '[0,1]System operational|[2,*]All systems are operational',
+        'good'  => '[0,1] Système opérationnel|[2,*] Tous les systèmes sont opérationnels',
         'bad'   => '[0,1] Le système rencontre actuellement des problèmes|[2,Inf] Certains systèmes rencontrent des problèmes',
         'major' => '[0,1] Le service rencontre une panne majeure|[2,Inf] Certains systèmes rencontrent une panne majeure',
     ],
@@ -75,10 +75,11 @@ return [
 
     // Subscriber
     'subscriber' => [
-        'subscribe'   => 'Abonnez-vous pour obtenir les dernières mises à jour.',
-        'unsubscribe' => 'Se désinscrire :link',
-        'button'      => 'S\'abonner',
-        'manage'      => [
+        'subscribe'           => 'Abonnez-vous pour obtenir les dernières mises à jour.',
+        'unsubscribe'         => 'Se désabonner',
+        'button'              => 'S\'abonner',
+        'manage_subscription' => 'Gérer l\'abonnement',
+        'manage'              => [
             'no_subscriptions' => 'Vous êtes actuellement abonné à toutes les mises à jour.',
             'my_subscriptions' => 'Vous êtes actuellement abonné aux mises à jour suivantes.',
             'manage_at_link'   => 'Gérer vos abonnements à :link',
